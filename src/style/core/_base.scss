@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  //font-family: $font;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #1e1e1e;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 10px 0;
+}
+
+ol,
+ul {
+  li {
+    padding: 0;
+  }
+}
+
+input,
+textarea,
+select,
+button {
+  border-radius: 0 !important;
+  //outline: none;
+}
+
+input {
+  padding: 3px 10px 5px 10px;
+  color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+}
+
+svg {
+  display: block;
+  overflow: visible;
+}
