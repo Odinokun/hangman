@@ -12,10 +12,10 @@ body {
 }
 
 html {
-  //font-family: $font;
+  font-family: 'Fira Mono', monospace;
   font-size: 16px;
   line-height: 1.38;
-  color: #1e1e1e;
+  color: #f2f2f2;
 }
 
 body {
@@ -58,4 +58,16 @@ input {
 svg {
   display: block;
   overflow: visible;
+}
+
+.main {
+  min-height: 100vh;
+  background: linear-gradient(to right, #485563, #29323c);
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
