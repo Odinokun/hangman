@@ -8,3 +8,57 @@ block variables
 
 block content
   main.main
+    //begin header
+    header.main__header.header
+      .container
+        h1.header__title Виселица
+        span.header__subtitle Угадай слово, или будешь болтаться на рее
+        span.header__subtitle--sm Для начала игры - нажми любую букву на клавиатуре
+    //end header
+
+    //begin main__body
+    .main__body.body
+      .container
+
+        //begin body__hangman-wrap
+        .body__hangman-wrap.hangman-wrap
+          .hangman#hangman
+            .hangman__floor
+            .hangman__bar
+            .hangman__roof
+            .hangman__rope
+            .hangman__head#hangman__head
+            .hangman__body#hangman__body
+            .hangman__left-hand#hangman__left-hand
+            .hangman__right-hand#hangman__right-hand
+            .hangman__left-foot#hangman__left-foot
+            .hangman__right-foot#hangman__right-foot
+        //end body__hangman-wrap
+
+        //begin body__wrong
+        .body__wrong.wrong
+          span.wrong__title Ошибочки
+          ul.wrong__list#wrong__list
+            li к
+            li п
+            li ы
+            li д
+            li ь
+            li а
+            li в
+        //end body__wrong
+    //end main__body
+
+    //begin main__footer
+    footer.main__footer.footer
+      .container
+        ul.footer__output#footer__output
+          li л
+          li о
+          li ш
+          li
+          li д
+          li ь
+    //end main__footer
+
+
